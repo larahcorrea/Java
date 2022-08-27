@@ -19,10 +19,10 @@ altura = ler.nextInt();
 área = altura * base ; 
 
 if (área > 100) {
-	System.out.printf("Terreno Grande!", área);
+	System.out.printf("%d, Terreno Grande!", área);
 	
 }else {
-	System.out.printf("", área);
+	System.out.printf(" %d", área);
 }
 
 
