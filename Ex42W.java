@@ -27,7 +27,6 @@ public class Ex42W {
 		    baixo += 1;
 		    i++;
 		}
-		ler.close();
 	}
 
 }

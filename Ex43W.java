@@ -32,7 +32,6 @@ public class Ex43W {
 		    baixo = fator * fator * fator;
 		    i++;
 		}
-		ler.close();
 	}
 
 }

@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Ex43F {
 
-	public static void main(String[] args) {
-@SuppressWarnings("resource")
-Scanner ler = new Scanner(System.in);
+	public static void main(String[] args) {		
+		Scanner ler = new Scanner(System.in);
 		
 		int n, baixo, cima, i, impar, fator, soma;
 		
@@ -31,7 +30,6 @@ Scanner ler = new Scanner(System.in);
 		    fator += 1;
 		    baixo = fator * fator * fator;
 		}
-		ler.close();
 	}
 
 }

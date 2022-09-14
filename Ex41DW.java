@@ -32,8 +32,6 @@ public class Ex41DW {
 		}while (i <= n);
 
 		System.out.printf("\nA soma é %d", total);
-		
-		ler.close();
 	}
 
 }

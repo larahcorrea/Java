@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ex42F {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("resource")
 		Scanner ler = new Scanner(System.in);
 		
 		int n, baixo, cima, i;
@@ -26,7 +25,6 @@ public class Ex42F {
 		    cima = baixo;
 		    baixo += 1;
 		}
-		ler.close();
 	}
 
 }

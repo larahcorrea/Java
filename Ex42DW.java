@@ -27,8 +27,6 @@ public class Ex42DW {
 		    baixo += 1;
 		    i++;
 		} while (i <= n);
-		
-		ler.close();
 	}
 
 }

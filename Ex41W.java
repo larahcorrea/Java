@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Ex41W {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("resource")
 		Scanner ler = new Scanner(System.in);
 		
 		int n, impar, ultimo, total, soma, i;
